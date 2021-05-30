@@ -15,7 +15,3 @@ CREATE TABLE businesses (
   category_code VARCHAR(5),
   country_code CHAR(3)
 );
-
-\copy categories FROM 'categories.csv' DELIMITER ',' CSV HEADER;
-\copy countries FROM 'countries.csv' DELIMITER ',' CSV HEADER;
-\copy businesses FROM 'businesses.csv' DELIMITER ',' CSV HEADER;
